@@ -30,7 +30,7 @@ WSL enables developers on Windows to use the Linux environment. This project exp
 
 ![admin](images/message.png)
 
-7. You are good to go! Open a new WSL window, and try opening a graphical application.
+7. You are good to go! Open a new WSL window, and try launching a graphical application.
 
 ## About
 ### What is Xming?
