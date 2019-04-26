@@ -31,8 +31,9 @@ if '%errorlevel%' NEQ '0' (
 @echo off
 TITLE WSL-GUI Installer
 xcopy "Xming" "C:\WSL-GUI\Xming" /E /Y /I /R /D
-copy start.bat "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
+copy start.vbs "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
+copy start.bat "C:\WSL-GUI\"
 wsl eval "grep -qxF 'export DISPLAY=:0' ~/.profile || echo 'export DISPLAY=:0' >> ~/.profile"
-start "" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\start.bat"
+start "" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\start.vbs"
 clear
 msg "%username%" Setup is finished! Open a new WSL window and try a graphical program.
