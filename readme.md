@@ -20,7 +20,8 @@ WSL enables developers on Windows to use the Linux environment. This project exp
 
 ![admin](images/defender.png)
 
-5. Complete the Xming setup.
+5. Complete the Xming setup. 
+> If you already have Xming installed, simply close the installation window.
 
 ![admin](images/xming.png)
 
@@ -30,5 +31,7 @@ WSL enables developers on Windows to use the Linux environment. This project exp
 
 7. You are good to go! Open a new WSL window, and try opening a graphical application.
 
-## Xming
-Xming is an X Server for Windows. The installer will launch the Xming installer, to install this required package first.SS
+## About
+### What is Xming?
+> Xming is the leading X Window System Server for Microsoft Windows 8/7/Vista/XP (+ server 2012/2008/2003). It is fully featured, small and fast, simple to install and because it is standalone native Microsoft Windows, easily made portable (not needing a machine-specific installation).
+Xming can be downloaded separately [here](https://sourceforge.net/projects/xming/).
