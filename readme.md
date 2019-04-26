@@ -1,4 +1,5 @@
-# WSL GUI
+# WSL GUI 
+## [Download](https://github.com/KentoNishi/WSL-GUI/raw/master/wsl-gui.EXE)
 A tool to enable graphical applications in Windows Subsystem for Linux.
 
 ![gedit](images/gedit.png)
