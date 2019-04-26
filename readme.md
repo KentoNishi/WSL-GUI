@@ -24,11 +24,10 @@ WSL enables developers on Windows to use the Linux environment. This project exp
 
 ![admin](images/xming.png)
 
-6. After a few moments, a message should appear, indicating success.
+6. After a few moments, a message should appear, indicating success. This message will close on it's own if left idle.
 
 ![admin](images/message.png)
 
-This message will close on it's own if left idle.
 7. You are good to go! Open a new WSL window, and try opening a graphical application.
 
 ## Xming
