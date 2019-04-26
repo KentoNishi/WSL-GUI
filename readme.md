@@ -34,4 +34,5 @@ WSL enables developers on Windows to use the Linux environment. This project exp
 ## About
 ### What is Xming?
 > Xming is the leading X Window System Server for Microsoft Windows 8/7/Vista/XP (+ server 2012/2008/2003). It is fully featured, small and fast, simple to install and because it is standalone native Microsoft Windows, easily made portable (not needing a machine-specific installation).
+
 Xming can be downloaded separately [here](https://sourceforge.net/projects/xming/).
