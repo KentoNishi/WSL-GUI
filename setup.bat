@@ -1,6 +1,3 @@
-REM --add the following to the top of your bat file--
-
-
 @echo off
 
 :: BatchGotAdmin
