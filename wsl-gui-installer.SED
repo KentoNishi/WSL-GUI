@@ -21,7 +21,7 @@ AdminQuietInstCmd=%AdminQuietInstCmd%
 UserQuietInstCmd=%UserQuietInstCmd%
 SourceFiles=SourceFiles
 [Strings]
-InstallPrompt=If Windows prompts for any permissions, click yes.
+InstallPrompt=If Windows prompts for any permissions, click yes. Do you want to continue the installation?
 DisplayLicense=
 FinishMessage=Setup is finished! Open a new WSL window and try a graphical program.
 TargetName=C:\Users\kento\Documents\GitHub\WSL-GUI\wsl-gui-installer.exe
