@@ -23,7 +23,7 @@ SourceFiles=SourceFiles
 [Strings]
 InstallPrompt=If Windows prompts for any permissions, click yes. Do you want to continue the installation?
 DisplayLicense=
-FinishMessage=Setup is finished! Open a new WSL window and try a graphical program.
+FinishMessage=
 TargetName=C:\Users\kento\Documents\GitHub\WSL-GUI\wsl-gui-installer.exe
 FriendlyName=WSL-GUI
 AppLaunched=cmd.exe /c install.bat
