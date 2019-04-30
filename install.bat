@@ -1,0 +1,2 @@
+wsl eval "TEMP=$(mktemp -d);cd ${TEMP};curl https://github.com/KentoNishi/WSL-GUI/archive/v3.zip -o executable.zip -J -L;unzip executable.zip -o -d files;cp -rf files/WSL-GUI-3/ '/mnt/c/users/%username%/WSL-GUI'"
+"%userprofile%\WSL-GUI\setup.bat"
