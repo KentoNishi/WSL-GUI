@@ -27,9 +27,10 @@ if '%errorlevel%' NEQ '0' (
 
 @echo off
 TITLE WSL-GUI Installer
-copy start.vbs "%userprofile%/WSL-GUI/"
+copy start.vbs "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 wsl eval "grep -qxF 'export DISPLAY=:0' ~/.profile || echo 'export DISPLAY=:0' >> ~/.profile"
-wsl eval "sudo apt-get update;sudo apt-get install libpulse0 -y;echo export PULSE_SERVER=tcp:localhost > ~/.bashrc;echo cmd.exe /c 'start %userprofile%/WSL-GUI/start.vbs'>> ~/.bashrc;"
+wsl eval "sudo apt-get update;sudo apt-get install libpulse0 -y;echo export PULSE_SERVER=tcp:localhost >> ~/.bashrc;"
 xcopy "%TMP%\PulseAudio" "%AppData%\PulseAudio\" /E /Y /I /R /D
 waitfor /T 1 echo
+start "" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\start.vbs"
 msg "%username%" Setup is finished! Open a new WSL window and try a graphical program. 
