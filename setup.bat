@@ -29,7 +29,7 @@ if '%errorlevel%' NEQ '0' (
 TITLE WSL-GUI Installer
 copy start.vbs "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 wsl eval "grep -qxF 'export DISPLAY=:0' ~/.profile || echo 'export DISPLAY=:0' >> ~/.profile"
-wsl eval "sudo apt-get update;sudo apt-get install libpulse0 -y;echo export PULSE_SERVER=tcp:localhost >> ~/.bashrc;"
+wsl eval "sudo apt-get update;sudo apt-get install libpulse0 -y;echo export PULSE_SERVER=tcp:localhost >> ~/.profile;"
 xcopy "%TMP%\PulseAudio" "%AppData%\PulseAudio\" /E /Y /I /R /D
 waitfor /T 1 echo
 start "" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\start.vbs"
